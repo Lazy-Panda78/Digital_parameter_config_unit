@@ -10,8 +10,9 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 
-void setup() {
-// write your initialization code here
+void setup()
+{
+    // write your initialization code here
     Serial.begin(9600);
     if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDR))
     {
@@ -20,9 +21,18 @@ void setup() {
     }
     // Clear Display
     display.clearDisplay();
-    
+    display.setTextSize(1);
+    display.setTextColor(SSD1306_WHITE);
+
+    display.setCursor(0, 0);
+    display.println("Arduino UNO R4");
+    display.println("OLED with I2C");
+    display.println("Hello Students");
+
+    display.display();
 }
 
-void loop() {
-// write your code here
+void loop()
+{
+    // write your code here
 }
