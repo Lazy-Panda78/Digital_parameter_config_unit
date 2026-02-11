@@ -193,8 +193,8 @@ Arduino UNO R4 WiFi    →    SSD1306 OLED Display
 - Course/Lab: Embedded Systems / Microcontroller Programming
 
 **Contact Information**:
-- [Add your email here]
-- [Add your GitHub profile here]
+- yash.upadhyay_cs.aiml24@gla.ac.in
+- https://github.com/Lazy-Panda78
 
 **Date**: February 2026
 
