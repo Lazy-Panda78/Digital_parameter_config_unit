@@ -18,6 +18,9 @@ void setup() {
         Serial.println("OLED not found");
         while (true);
     }
+    // Clear Display
+    display.clearDisplay();
+    
 }
 
 void loop() {
